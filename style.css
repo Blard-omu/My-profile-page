@@ -117,12 +117,6 @@ nav{
     box-sizing: border-box;
 }
 
-.clone-img{
-    background-image: url(./images/tech-studio-clone.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 17rem;
-}
 
 .portfolio-item1:hover{
     border: 1px solid red;
