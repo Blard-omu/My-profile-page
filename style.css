@@ -1,0 +1,287 @@
+nav{
+    z-index: 1;
+    border-top: 2px solid #da2c43;
+    border-bottom: 2px solid #da2c43;
+}
+
+.navbar-brand{
+    border: 2px solid #da2c43;
+    border-radius: 20rem;
+}
+
+.navbar-nav > li > a:hover{
+    text-decoration: underline;
+    color: red !important;
+}
+.nav-link > a:hover{
+    cursor: pointer;
+}
+
+
+.hero-section{
+    background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg);
+    background-size: cover;
+    height: 100rem;
+    padding-top: 5rem;
+    overflow: hidden;
+    border-bottom: 3px solid #da2c43;
+    
+
+}
+
+
+.my-img{
+    border: 3px solid rgba(255, 0, 0, 0.438);
+    border-radius: 20rem;
+    margin-top: 4rem;
+}
+
+.about-section{
+    border-bottom: 3px solid #da2c43;
+}
+
+/* .about-section p{
+    text-align: justify;
+} */
+
+
+.services-section{
+    border-bottom: 3px solid #da2c43;
+}
+.btn-size{
+    border-radius: 30px !important;
+}
+
+.heading:after{
+    width: 50px;
+    height: 5px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    content: "";
+}
+
+.skill-box{
+	width: 300px;
+	height: 200px;
+}
+
+.services-section{
+    background-color: #fbfbfb;
+}
+
+.service-box{
+    background-color: #fff;
+	width: 350px;
+	height: 350px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px #ccc;
+    box-sizing: border-box;
+}
+
+.call-to-action-section{
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;	
+    position: relative;
+}
+
+.cta-overlay{
+	background-color: rgba(100,0,0,0.5);
+    position: absolute;
+}
+
+.cta-btn1{
+	border: 1px solid #da2c43 !important;
+	border-radius: 30px !important;
+	background-color: #f5f5f5 !important;
+}
+
+.cta-btn2{
+	border: 1px solid #f5f5f5 !important;
+	border-radius: 30px !important;
+}
+
+.portfolio-section{
+    background-color: #fbfbfb;
+}
+
+.portfolio-item1{
+    background-color: #fff;
+	width: 350px;
+	height: 50rem;
+    border-radius: 10px;
+    box-shadow: 10px 5px 15px #ccc;
+    box-sizing: border-box;
+}
+
+.clone-img{
+    background-image: url(./images/tech-studio-clone.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 17rem;
+}
+
+.portfolio-item1:hover{
+    border: 1px solid red;
+}
+
+.contact-section{
+    background-image: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;	
+    position: relative;
+    z-index: -1;
+}
+
+.contact-overlay{
+	background-color: rgba(0,0,0,0.5);
+    position: absolute;
+}
+
+.contact-form{
+    background-color: black;
+    height: 20rem;
+}
+
+.contact-details{
+	width: 350px;
+	height: 380px;
+	background-color: #da2c43;
+    position: relative;
+    bottom: 120px;
+}
+
+.contact-details-minibox{
+	width: 260px;
+	height: 170px;
+    background-color: antiquewhite;
+}
+
+.img-border{
+    border-radius: 55px;
+    border: 1px solid #666666;
+}
+
+.to-top{
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 575px) {
+    .my-img{
+        width: 30rem;
+    }
+
+    .hero-section{
+        height: 72rem;
+        padding-top: 0px;
+    }
+
+    .skill-box{
+        width: 500px;
+        height: 250px;
+    }
+
+    .skill-icon{
+        width: 13rem;
+    }
+
+    .service-box{
+        width: 550px;
+        height: 350px;
+    }
+
+    .call-to-action-section{
+        height: 20rem;	
+    }
+
+    .contact-details{
+        width: 500px;
+    }
+    
+    .contact-details-minibox{
+        width: 400px;
+    }
+
+    .contact-text{
+        font-size: 1.5em !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-section{
+        height: 35rem;
+    }
+
+    .skill-box{
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill-icon{
+        width: 7rem;
+    }
+
+    .service-box{
+        width: 330px;
+        height: 350px;
+    }
+
+    .contact-details{
+        width: 700px;
+    }
+    
+    .contact-details-minibox{
+        width: 600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-section{
+        height: 600px;
+    }
+
+    .my-img{
+        width: 400px;
+	    height: 600px !important;
+    }
+
+    .service-box{
+        width: 330px;
+        height: 350px;
+    }
+
+    .portfolio-item1{
+        width: 450px;
+        height: 50rem;  
+    }
+
+    .contact-details{
+        bottom: 200px;
+    }
+
+    .to-top{
+        right: 40px;
+        bottom: 20px;
+    }
+
+    
+
+}
