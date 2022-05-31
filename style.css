@@ -155,9 +155,11 @@ nav{
     bottom: 120px;
 }
 
+
+
 .contact-details-minibox{
 	width: 260px;
-	height: 170px;
+	height: 200px;
     background-color: antiquewhite;
 }
 
@@ -172,7 +174,6 @@ nav{
     right: 10px;
     bottom: 20px;
 }
-
 
 
 
@@ -215,6 +216,7 @@ nav{
     .contact-details{
         width: 500px;
     }
+   
     
     .contact-details-minibox{
         width: 400px;
