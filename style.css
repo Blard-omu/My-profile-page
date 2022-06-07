@@ -1,3 +1,13 @@
+.wav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: font-weight 2s;
+}
+.wav:hover{
+    font-weight: 800;
+}
+
+
+
 nav{
     z-index: 1;
     border-top: 2px solid #da2c43;
