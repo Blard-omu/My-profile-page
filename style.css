@@ -28,6 +28,8 @@ nav{
 }
 
 
+
+
 .hero-section{
     background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg);
     background-size: cover;
@@ -49,10 +51,6 @@ nav{
 .about-section{
     border-bottom: 3px solid #da2c43;
 }
-
-/* .about-section p{
-    text-align: justify;
-} */
 
 
 .services-section{
@@ -179,6 +177,30 @@ nav{
     bottom: 20px;
 }
 
+.portfolio-project{
+    background-color: rgba(6, 6, 30, 0.772);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width:568px) {
+    .portfolio-project{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+.portfolio-item{
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+}
+
+.portfolio-item:hover{
+    background-color: #da2c43a1;
+}
 
 
 
