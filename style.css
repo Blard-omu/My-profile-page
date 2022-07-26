@@ -178,7 +178,8 @@ nav{
 }
 
 .portfolio-project{
-    background-color: rgba(6, 6, 30, 0.772);
+    background-color: #723131c5
+;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -189,8 +190,10 @@ nav{
         display: flex;
         flex-direction: column;
     }
+
     
 }
+    
 
 .portfolio-item{
     width: 110px;
@@ -199,7 +202,7 @@ nav{
 }
 
 .portfolio-item:hover{
-    background-color: #da2c43a1;
+    background-color: white;
 }
 
 
