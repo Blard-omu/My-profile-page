@@ -178,8 +178,6 @@ nav{
 }
 
 .portfolio-project{
-    background-color: #723131c5
-;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -194,16 +192,6 @@ nav{
     
 }
     
-
-.portfolio-item{
-    width: 110px;
-    height: 110px;
-    padding: 5px;
-}
-
-.portfolio-item:hover{
-    background-color: white;
-}
 
 
 
@@ -297,11 +285,6 @@ nav{
     .service-box{
         width: 330px;
         height: 350px;
-    }
-
-    .portfolio-item1{
-        width: 450px;
-        height: 50rem;  
     }
 
     .contact-details{
