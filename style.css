@@ -112,7 +112,7 @@ nav{
 	border-radius: 30px !important;
 }
 
-.portfolio-section{
+/* .portfolio-section{
     background-color: #fbfbfb;
 }
 
@@ -123,7 +123,7 @@ nav{
     border-radius: 10px;
     box-shadow: 10px 5px 15px #ccc;
     box-sizing: border-box;
-}
+} */
 
 
 .portfolio-item1:hover{
@@ -181,13 +181,32 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: rgb(7, 7, 33);
+}
+
+.Card{
+    display: block;
+    margin: auto;
+    width: 280px;
+    height: 400px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.Card img{
+    display: block;
+    width: 250px;
+    height: 200px;
 }
 
 @media (max-width:568px) {
     .portfolio-project{
-        display: flex;
-        flex-direction: column;
+        display: block;
+        margin: auto;
     }
+
+   
 
     
 }
