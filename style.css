@@ -1,3 +1,4 @@
+
 .wav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: font-weight 2s;
@@ -9,7 +10,6 @@
 
 
 nav{
-    z-index: 1;
     border-top: 2px solid #da2c43;
     border-bottom: 2px solid #da2c43;
 }
@@ -70,11 +70,13 @@ nav{
     content: "";
 }
 
+/* Technical skills */
 .skill-box{
 	width: 300px;
 	height: 200px;
 }
 
+/* Services */
 .services-section{
     background-color: #fbfbfb;
 }
@@ -88,6 +90,8 @@ nav{
     box-sizing: border-box;
 }
 
+
+/* Call to action section */
 .call-to-action-section{
     background-color: antiquewhite;
     background-size: cover;
@@ -112,24 +116,7 @@ nav{
 	border-radius: 30px !important;
 }
 
-/* .portfolio-section{
-    background-color: #fbfbfb;
-}
-
-.portfolio-item1{
-    background-color: #fff;
-	width: 350px;
-	height: 50rem;
-    border-radius: 10px;
-    box-shadow: 10px 5px 15px #ccc;
-    box-sizing: border-box;
-} */
-
-
-.portfolio-item1:hover{
-    border: 1px solid red;
-}
-
+/* Contact section */
 .contact-section{
     background-image: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
@@ -165,6 +152,7 @@ nav{
     background-color: antiquewhite;
 }
 
+/* Footer */
 .img-border{
     border-radius: 55px;
     border: 1px solid #666666;
@@ -177,11 +165,12 @@ nav{
     bottom: 20px;
 }
 
+/* Portfolio section */
 .portfolio-project{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(7, 7, 33);
+    background-color: antiquewhite;
 }
 
 .Card{
@@ -191,6 +180,10 @@ nav{
     height: 400px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
     
 }
 
@@ -198,10 +191,17 @@ nav{
     display: block;
     width: 250px;
     height: 200px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
+
+
 
 @media (max-width:568px) {
     .portfolio-project{
+        width: 100%;
         display: block;
         margin: auto;
     }
@@ -211,15 +211,6 @@ nav{
     
 }
     
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 575px) {
     .my-img{
@@ -314,7 +305,4 @@ nav{
         right: 40px;
         bottom: 20px;
     }
-
-    
-
 }
