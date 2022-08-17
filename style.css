@@ -34,7 +34,7 @@ nav{
 .hero-section{
     background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg);
     background-size: cover;
-    height: 100rem;
+    height: auto;
     padding-top: 5rem;
     overflow: hidden;
     border-bottom: 3px solid #da2c43;
