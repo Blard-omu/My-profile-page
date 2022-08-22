@@ -12,7 +12,9 @@
 
 nav{
     border-top: 2px solid #da2c43;
-    border-bottom: 2px solid #da2c43;
+    /* border-bottom: 2px solid #da2c43; */
+    background-color: rgba(76, 0, 130, 0.107);
+
 }
 
 .navbar-brand{
@@ -27,9 +29,6 @@ nav{
 .nav-link > a:hover{
     cursor: pointer;
 }
-
-
-
 
 .hero-section{
     background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg);
