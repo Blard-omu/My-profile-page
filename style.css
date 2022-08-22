@@ -17,10 +17,7 @@ nav{
 
 }
 
-.navbar-brand{
-    border: 2px solid #da2c43;
-    border-radius: 20rem;
-}
+
 
 .navbar-nav > li > a:hover{
     text-decoration: underline;
