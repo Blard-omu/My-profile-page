@@ -12,9 +12,6 @@
 
 nav{
     border-top: 2px solid #da2c43;
-    /* border-bottom: 2px solid #da2c43; */
-    background-color: rgba(76, 0, 130, 0.107);
-
 }
 
 
@@ -42,6 +39,7 @@ nav{
     border: 3px solid rgba(255, 0, 0, 0.438);
     border-radius: 20rem;
     margin-top: 4rem;
+    background-color: #5a030f9e;
 }
 
 .about-section{
