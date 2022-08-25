@@ -1,15 +1,4 @@
 
-.wav{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transition: font-weight .8s;
-    font-weight: 600;
-}
-.wav:hover{
-    font-weight: 800;
-}
-
-
-
 nav{
     border-top: 2px solid #da2c43;
 }
