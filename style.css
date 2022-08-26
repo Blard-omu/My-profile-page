@@ -3,7 +3,10 @@ nav{
     border-top: 2px solid #da2c43;
 }
 
-
+.navbar-brand{
+    display: block;
+    filter: drop-shadow(4px 3px 4px #444);
+}
 
 .navbar-nav > li > a:hover{
     text-decoration: underline;
@@ -12,6 +15,22 @@ nav{
 .nav-link > a:hover{
     cursor: pointer;
 }
+
+.front-end{
+    animation: myAnimation 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+
+@keyframes myAnimation{
+    0%  {color: #da2c43;}
+    50%  {color: blanchedalmond;}
+    100%  {color: green;}
+}
+
+
+
+
 
 .hero-section{
     background-image: url(https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg);
@@ -25,10 +44,11 @@ nav{
 
 
 .my-img{
-    border: 3px solid rgba(255, 0, 0, 0.438);
     border-radius: 20rem;
     margin-top: 4rem;
     background-color: #5a030f9e;
+    image-rendering: optimizeQuality;
+    mix-blend-mode:hard-light;
 }
 
 .about-section{
