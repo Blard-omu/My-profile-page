@@ -28,8 +28,30 @@ nav{
     100%  {color: green;}
 }
 
+.icon_{
+    animation: float 5s ease-in-out;
+    animation-iteration-count: 3;
+}
 
+.icon-github{
+    animation-delay: 1s;
+}
 
+.icon-twitter{
+    animation-delay: 2s;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 
 .hero-section{
@@ -150,8 +172,6 @@ nav{
     bottom: 120px;
 }
 
-
-
 .contact-details-minibox{
 	width: 260px;
 	height: 200px;
@@ -203,21 +223,14 @@ nav{
     border-bottom-right-radius: 10%;
 }
 
-
-
 @media (max-width:568px) {
     .portfolio-project{
         width: 100%;
         display: block;
         margin: auto;
-    }
-
-   
-
-    
+    }  
 }
     
-
 @media (min-width: 575px) {
     .my-img{
         width: 30rem;
@@ -250,7 +263,6 @@ nav{
         width: 500px;
     }
    
-    
     .contact-details-minibox{
         width: 400px;
     }
