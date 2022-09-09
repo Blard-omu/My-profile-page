@@ -71,7 +71,7 @@ nav{
     background-color: #5a030f9e;
     image-rendering: optimizeQuality;
     /* mix-blend-mode:hard-light; */
-    mix-blend-mode:luminosity;
+    /* mix-blend-mode:luminosity; */
     filter: drop-shadow(4px 10px 8px #da2c43);
 }
 
